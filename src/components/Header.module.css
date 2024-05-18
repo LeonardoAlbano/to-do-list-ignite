@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+
+    padding: 5rem 0.625rem;
+
+    background: rgb(130,132,250);
+background: linear-gradient(152deg, rgba(130,132,250,1) 43%, rgba(78,168,211,1) 88%);
+}
+
+.logo{
+    animation: slideDownImage 1.5s ease forwards;
+}
+
+
+@keyframes slideDownImage {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+}
